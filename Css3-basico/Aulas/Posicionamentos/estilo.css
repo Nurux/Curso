@@ -1,0 +1,44 @@
+Body{
+    background: #007fc7;
+}
+
+h1{
+    position: static;     /*o positon static é o posicionamento padrão*/
+                          /*das estruturas dos cites*/
+}
+
+p{
+    position: static;
+    width: 300px;
+}
+
+#container{
+    background: white;
+    color: black;
+    width: 600px;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+.relativa{
+    border: 1px solid red;   /*o position relative permite o programador*/
+    position: relative;        /*mudar o posicionamento dos elementos do site*/
+    left: 300px;               /*utilizando os comando left, rigth, top e bottom*/
+}
+
+.absoluta{
+    border: 1px solid yellow; /*quando usamos a position absolute o elemento*/
+    position: absolute;         /*deixa de interferir nos outros elementos dentro da pagina*/
+    background: #f2f2f2;      /*pode ser manipulada usando left, rigth, top e bottom*/
+    left: 70px;
+    top: 300px;
+}
+
+.fixa{
+    border: 1px solid blue;
+    background: #f2f2f2;
+    margin: 0px;
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+}

@@ -1,0 +1,26 @@
+a{
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*Links não visitados*/
+a:link{
+    color: #b9c941;
+}
+
+/*Links vistados*/
+a:visited{
+    color: hotpink;
+}
+
+/*Links Hover, passar o curso em cima do link*/
+a:hover{
+    color: aqua;
+    background: black;
+    border-radius: 10px;
+}
+
+/*Links ativos, quando clicar e segurar*/
+a:active{
+    color: blueviolet;
+}

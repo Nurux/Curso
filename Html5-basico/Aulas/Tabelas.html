@@ -1,0 +1,59 @@
+ <!DOCTYPE html>
+ <html lang="pt-BR">
+ <head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Tabelas</title>
+ </head>
+ <body>
+     <h2>Produtos</h2>
+
+    <table border="5" width="500">       <!--Define a tabela, tamanho da borda e largura-->
+        <tr>                             <!--Define as linhas da tabela-->
+            <th>Código</th>              <!--Define o cabeçalho da tabela-->
+            <th>Produto</th>  
+            <th>Preço</th>
+        </tr>
+        <tr>
+            <td>001</td>      <!--Define os dados da tabela-->
+            <td>Notebook</td>
+            <td>R$ 2.500,00</td>
+        </tr>
+        <tr>
+            <td>002</td>
+            <td>Tablet</td>
+            <td>R$ 199,90</td>
+        </tr>
+        <tr>
+            <td>003</td>
+            <td>
+                <img src="https://avowhcbwko.cloudimg.io/v7/https://montinkantigo.s3.amazonaws.com/data/camisas/camiseta-meditacao---foda-se-5a5520684f3ed-estampa-301.png" width="200">
+            </td>
+            <td>R$ 3.000,00</td>
+        </tr>
+        <tr>
+            <td>004</td>
+            <td>
+                <a href="https://www.twitch.tv/xguestext">Farm de bounty coins</a>
+            </td>
+            <td>R$ 1.000,00</td>
+        </tr>
+
+        <tr>
+            <td rowspan="2">Desconto</td>             <!--O comando rowspan extende o espaço da linha-->
+            <td colspan="2">cupom1 -R$ 10</td>        <!--O comando colspan extende o espaço da coluna-->
+        </tr>
+
+        <tr>
+            <td colspan="2">cupom2 -R$ 12</td>
+        </tr>
+
+        <tr>
+            <td>Total</td>
+            <td colspan="2">R$ 6.677,90 </td>
+        </tr>
+    </table>
+    
+ </body>
+ </html>

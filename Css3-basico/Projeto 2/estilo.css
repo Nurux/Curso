@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif;
+    background: #f2f2f2;
+}
+
+
+/*
+**** Layout ****
+*/
+#cabeçalho{
+    background: #f7b600;
+    text-align: center;
+    padding: 15px;
+}
+
+#logo, #menu{
+    padding: 10px;
+}
+
+#pagp{
+    width: 920px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+#conteudo{
+    width: 660px;
+    float: left;
+}
+
+#lateral{
+    width: 240px;
+    float: right;
+}
+
+#rodape{
+    background: #ccc;
+    text-align: center;
+    padding: 15px;
+    clear: both;
+    border-radius: 20px;
+}
+
+.postagem{
+    padding: 20px;
+    margin-bottom: 20px;
+    background: white;
+    border-radius: 5px;
+}
+
+.contl{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.catl{
+    background: white;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+
+
+/*
+**** Fomatação Menu ****
+*/
+a{
+   text-decoration: none;
+}
+
+ a:link, a:visited{
+    color: #f7b600; 
+}
+
+a:hover{
+  text-decoration: underline;
+}
+
+#cabeçalho a:link, #cabeçalho a:visited{
+    color: white;
+    padding: 8px;
+}
+
+#cabeçalho a:hover{
+    color: #f7b600;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+/*
+**** Fomatação Geral ****
+*/
+h1{
+    color: #4e4e4e;
+    font-size: 2.5em;
+}
+
+h2{
+    color: #f7b600;
+}
+
+h3{
+    color: #565656;
+    background: #ccc;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.white{
+    color: white;
+}
+
+.dtpt{
+   font-size: 0.8em;
+   border-bottom: 1px solid #ccc; 
+   padding-bottom: 5px;
+   margin-bottom: 5px;
+   display: block;
+}
+
+.postl{
+    font-size: 0.8em;
+    padding: 5px;
+    border-bottom: 1px solid #ccc
+}
+
+

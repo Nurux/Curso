@@ -1,0 +1,30 @@
+.conteudo{
+    border: 2px solid hotpink;
+    width: 150px;
+    height: 100px;
+    margin: 5px;
+    float: left;
+    
+}
+
+.txt{
+    clear: both;
+    color: white;
+}
+
+#principal{
+    border: 5px solid slateblue;
+    background: gray;
+}
+
+#p1{
+    background: aquamarine;
+}
+
+#p2{
+    background: powderblue;
+}
+
+#p3{
+    background: paleturquoise;
+}

@@ -1,0 +1,27 @@
+body{
+    background: #f4f4f4;
+}
+
+#principal{
+    width: 920px;
+}
+
+.conteudo{
+    padding: 5px;
+    width: 280px;
+    margin: 7px;
+    float: left;
+    background: rgb(192, 187, 187);
+}
+
+.imgs{
+    background: white;
+    width: 265px;
+    padding: 5px;
+    margin: 15px;
+    float: left;
+}
+
+.clear{
+    clear: both;
+}
