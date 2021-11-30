@@ -1,0 +1,32 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-indent: 40px; /*Funciona igaul ao padding*/
+    line-height: 40px; /*Defini tamanho da linha do texto (onde começa)*/
+    background: #f7b600 url(imgs/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}
+
+#home #nav .home a, #sobre #nav .sobre a, #serv #nav .serv a, #noti #nav .noti a, #cont #nav .cont a{
+    background-position: right bottom;
+    background-color: #f99200;
+    color: white;
+}

@@ -1,0 +1,21 @@
+ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+ul a{
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-indent: 40px; /*Funciona igaul ao padding*/
+    line-height: 40px; /*Defini tamanho da linha do texto (onde começa)*/
+    background: url(imgs/menu.png) no-repeat left bottom;
+}
+
+a:hover{
+    background-position: right bottom;
+    color: white;
+}

@@ -1,0 +1,7 @@
+*{
+    border: solid 10px pink;
+} /*seleciona toda a pagina*/
+
+li>a{
+
+}/*seleciona o filho*/

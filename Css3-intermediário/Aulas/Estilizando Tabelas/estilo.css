@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: darkcyan;
+    color: white;
+}
+
+table{
+    width: 600px;
+    border-collapse: separate; /*Serve para juntar ou separar as bordas*/
+}
+
+th, td{
+    padding: 7px;
+}
+
+th{
+    text-transform: uppercase;
+    text-align: left;
+    border-top: 2px solid rgb(106, 212, 226);
+    border-bottom: 2px solid rgb(39, 115, 117);
+    font-size: 90%;
+    letter-spacing: 0.1em; /*Cria espaçamento entre letras*/
+}
+
+tr:hover{
+    background: #c3e6e5;
+    color: black;
+}
+
+td.num{
+    text-align: left;
+}

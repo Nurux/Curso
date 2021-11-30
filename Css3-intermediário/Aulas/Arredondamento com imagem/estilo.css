@@ -1,0 +1,32 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.caixa{
+    width: 400px;
+    background: #dedede url(imgs/topo.png) no-repeat left top;
+}
+
+.caixa p{
+    background: url(imgs/baixo.png) no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+}
+
+.caixa h2 {
+    padding: 10px 20px 0px 20px;
+}
+
+
+.caixa2{
+    width: 400px;
+    background: url(imgs/fundo-arredondamento.png) repeat-y;
+}
+
+.caixa2 h2{
+    background: url(imgs/topo2.png) no-repeat left top;
+    padding: 10px 20px 0px 20px;
+}
+.caixa2 p{
+    background: url(imgs/baixo2.png) no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+}

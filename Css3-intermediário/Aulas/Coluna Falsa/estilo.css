@@ -1,0 +1,73 @@
+body{
+    background: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#container{
+    width: 960px;
+    margin: 0 auto;
+    background: white url(imgs/coluna.png) repeat-y;
+    min-width: 720px;
+    max-width: 1280px;
+}
+
+#marca{
+    height: 200px;
+    background:  #225992 url(imgs/cabecalho2.jpg) no-repeat center;
+    text-align: center;
+    line-height: 200px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#principal{
+    width: 64%;
+    float: left;
+}
+
+img.img-noticia{
+    width: 90%;
+    padding: 2%;
+}
+
+#second{
+    width: 34%;
+    float: right;
+    background: #d1d1d1;
+}
+
+#second h2, #second p{
+    padding: 20px;
+}
+
+#navegacao{
+    width: 23%;
+    float: left;
+}
+
+#rodape{
+    clear: both;
+    background: gray;
+    padding: 5px;
+}
+
+#navegacao ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#navegacao ul a{
+    text-decoration: none;
+    display: block;
+    color: black;
+    text-indent: 40%; /*Funciona igaul ao padding*/
+    line-height: 300%; /*Defini tamanho da linha do texto (onde começa)*/
+}
+
+#navegacao a:hover{
+    color: white;
+}

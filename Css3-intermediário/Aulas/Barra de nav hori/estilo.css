@@ -1,0 +1,31 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 750px;
+    background: #159cb0 url(imgs/fundo-horizontal.png) repeat-x;
+    float: left;
+}
+
+ul li{
+    float: left;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: white;
+    background: url(imgs/divisor.png) repeat-y right top;
+}
+
+
+a:hover{
+    background: #3dfae1 ;
+    color: gray;
+}
